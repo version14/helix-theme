@@ -6,6 +6,17 @@ A Helix editor theme built around the Version 14 brand palette, with dark, black
 
 The shared semantic colors are maintained in [version14/tokens](https://github.com/version14/tokens). This repository keeps Helix-native generated files.
 
+For an intentional Helix-specific palette choice, add an explicit override
+comment directly above the palette assignment:
+
+\`\`\`toml
+# version14-override: palette.sel_primary = "#3A3650"
+sel_primary = "#3A3650"
+\`\`\`
+
+CI will preserve and validate that override while continuing to check the other
+generated colors.
+
 ## Variants
 
 | Variant | File | Description |
