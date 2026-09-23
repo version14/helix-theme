@@ -2,6 +2,10 @@
 
 A Helix editor theme built around the Version 14 brand palette, with dark, black, light, and transparent dark variants.
 
+## Palette source
+
+The shared semantic colors are maintained in [version14/tokens](https://github.com/version14/tokens). This repository keeps Helix-native generated files.
+
 ## Variants
 
 | Variant | File | Description |
